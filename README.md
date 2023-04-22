@@ -18,7 +18,8 @@ private_subnets_block =
 public_subnets_block =
 ```
 
-#sample
+#sample:
+
 ![images](images/Screenshot%202023-04-22%20at%205.38.47%20pm.png)
 
 ```
@@ -34,6 +35,8 @@ terraform plan
 ```
 terraform apply
 ```
+
+![image](images/Screenshot%202023-04-22%20at%205.57.17%20pm.png)
 
 ###### Destroy vpc and EKS cluster
 
