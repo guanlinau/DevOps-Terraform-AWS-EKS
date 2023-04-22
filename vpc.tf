@@ -1,6 +1,6 @@
 # Configure the AWS Provider
 provider "aws" {
-  region = "ap-southeast-1"
+  region = "ap-southeast-2"
 }
 
 variable vpc_cidr_block {}
@@ -11,6 +11,7 @@ data "aws_availability_zones" "azs" {}
 
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
+  version = "4.0.1"
 
   name = "myapp-vpc"
   cidr = var.vpc_cidr_block

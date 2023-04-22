@@ -10,6 +10,17 @@ Automate provisioning EKS cluster with Terraform
 
 ### Usage Instructions:
 
+1- Fill in variables into terraform.tfvars
+
+```
+vpc_cidr_block =
+private_subnets_block =
+public_subnets_block =
+```
+
+sample
+![images](images/Screenshot%202023-04-22%20at%205.38.47%20pm.png)
+
 ```
 terraform init
 ```
